@@ -1,4 +1,4 @@
-# EAIR: Evidence-Aware Iterative Reasoning for Multi-hop Question Answering
+# EAIR: Entity-aware Inference-Time Knowledge Routing for Multi-Hop Knowledge Editing
 
 This repository contains the official implementation of **EAIR**, a framework for multi-hop question answering with knowledge editing.
 
