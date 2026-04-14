@@ -1,0 +1,26 @@
+{
+  "examples": [
+    {
+      "Q": "What is the capital city of France?",
+      "A": "Paris"
+    },
+    {
+      "Q": "Who is the current CEO of Tesla?",
+      "A": "Elon Musk"
+    },
+    {
+      "Q": "Which country is the city of Berlin located in?",
+      "A": "Germany"
+    },
+    {
+      "Q": "Who is the author of the Harry Potter series?",
+      "A": "J. K. Rowling"
+    },
+    {
+      "Q": "What is the official currency used in Japan?",
+      "A": "Japanese Yen"
+    }
+  ],
+  "template_ctx": "Review the updated facts below.\n\n[Facts]\n{evidence_block}\n\n----------------\n\n[Examples]\nHere are examples of how to answer concisely:\n\n{examples_block}\n\n----------------\n\n[Current Task]\nInstruction: Based ONLY on the [Facts] above, answer the question below with a SINGLE entity name. Do not explain.\n\nQ: {question}\nA:",
+  "template_no": "[Examples]\nHere are examples of how to answer concisely:\n\n{examples_block}\n\n----------------\n\n[Current Task]\nInstruction: Answer the question with a SINGLE entity name based on your knowledge.\n\nQ: {question}\nA:"
+}

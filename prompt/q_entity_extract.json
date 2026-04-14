@@ -1,0 +1,50 @@
+[
+  {
+    "role": "system",
+    "content": "Extract the most important subject entity explicitly named in the question. The entity MUST appear verbatim in the question (copy, do not invent). Output MUST be a SINGLE entity string (not a clause)."
+  },
+  {
+    "role": "user",
+    "content": "Question: What is the release year of the album that contains the hit song \"Billie Jean\"?"
+  },
+  {
+    "role": "assistant",
+    "content": "Q_ENTITY: Billie Jean"
+  },
+
+  {
+    "role": "user",
+    "content": "Question: Which currency is officially used in the country that is home to the ancient city of Machu Picchu?"
+  },
+  {
+    "role": "assistant",
+    "content": "Q_ENTITY: Machu Picchu"
+  },
+
+  {
+    "role": "user",
+    "content": "Question: Who is the spouse of the founder of the company that created the iPhone?"
+  },
+  {
+    "role": "assistant",
+    "content": "Q_ENTITY: iPhone"
+  },
+
+  {
+    "role": "user",
+    "content": "Question: What is the primary language spoken in the city where the headquarters of the United Nations is located?"
+  },
+  {
+    "role": "assistant",
+    "content": "Q_ENTITY: United Nations"
+  },
+
+  {
+    "role": "user",
+    "content": "Question: What is the capital city of the birth country of the founder of the company that produces the PlayStation console?"
+  },
+  {
+    "role": "assistant",
+    "content": "Q_ENTITY: PlayStation"
+  }
+]

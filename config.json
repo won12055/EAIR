@@ -1,0 +1,7 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "dataset_name": "MQuAKE-CF-3k-v2",
+  "alpha": 0.3,
+  "k_evidence": 8,
+  "seed": 100
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Decompose the question into minimum sequential hops. Each hop must be a QUESTION whose ANSWER is a SINGLE ENTITY that will be used as input for the NEXT hop (an intermediate answer). Do NOT create a hop to 'Identify' or 'Find' an entity that is already explicitly named in the question. Start the first hop immediately by querying the relationship or attribute of that entity."
+    },
+    {
+        "role": "user",
+        "content": "Question: What is the release year of the album that contains the hit song \"Billie Jean\"?"
+    },
+    {
+        "role": "assistant",
+        "content": "REASONING:\n- Hop 1: Identify the specific album that contains the song \"Billie Jean\".\n- Hop 2: Find the release year of that album.\n\nHOP_COUNT: 2"
+    },
+    {
+        "role": "user",
+        "content": "Question: Which currency is officially used in the country that is home to the ancient city of Machu Picchu?"
+    },
+    {
+        "role": "assistant",
+        "content": "REASONING:\n- Hop 1: Identify the country where the ancient city of Machu Picchu is located.\n- Hop 2: Identify the official currency used in that country.\n\nHOP_COUNT: 2"
+    },
+    {
+        "role": "user",
+        "content": "Question: Who is the spouse of the founder of the company that created the iPhone?"
+    },
+    {
+        "role": "assistant",
+        "content": "REASONING:\n- Hop 1: Identify the company that created the iPhone.\n- Hop 2: Identify the founder of that company.\n- Hop 3: Identify the spouse of that founder.\n\nHOP_COUNT: 3"
+    },
+    {
+        "role": "user",
+        "content": "Question: What is the primary language spoken in the city where the headquarters of the United Nations is located?"
+    },
+    {
+        "role": "assistant",
+        "content": "REASONING:\n- Hop 1: Identify the specific city where the headquarters of the United Nations is located.\n- Hop 2: Identify the country where that city is located.\n- Hop 3: Find the primary language spoken in that country.\n\nHOP_COUNT: 3"
+    },
+    {
+        "role": "user",
+        "content": "Question: What is the capital city of the birth country of the founder of the company that produces the PlayStation console?"
+    },
+    {
+        "role": "assistant",
+        "content": "REASONING:\n- Hop 1: Identify the company that produces the PlayStation console.\n- Hop 2: Identify the founder of that company.\n- Hop 3: Identify the country of birth of that founder.\n- Hop 4: Find the capital city of that country.\n\nHOP_COUNT: 4"
+    }
+]

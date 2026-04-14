@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv/
+
+# Experiment artifacts
+output/
+logs/
+*.log
+*.err
+*.out
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+
+# Model / cache files
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+.cache/
+hf_cache/
+
+# SLURM
+slurm-*.out
